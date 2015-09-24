@@ -1,7 +1,7 @@
 
 CC 			= arm-none-eabi-
 
-LDSCRIPT 	= MKL25Z4.ld
+LDSCRIPT 	= scripts/MKL25Z4.ld
 
 INC = 	-Idevice \
 		-Ikernel/include \
